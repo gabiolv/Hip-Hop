@@ -1,43 +1,83 @@
-body {
-  font-family: 'Arial', sans-serif; /* Fonte padrão */
-  line-height: 1.6; /* Aumenta o espaçamento entre linhas */
-  margin: 20px; /* Margem da página */
-  background-color: #f4f4f4; /* Cor de fundo suave */
+* {
+  box-sizing: border-box;
 }
 
-/* Estilizando os títulos */
-h1 {
-  color: #2c3e50; /* Cor do título principal */
-  text-align: center; /* Centraliza o título */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+section:hover {
+  transform: scale(1.02);
 }
 
 h2 {
-  color: #2980b9; /* Cor dos subtítulos */
-  margin-top: 20px; /* Espaço acima dos subtítulos */
+  color: #ff6a00;
 }
 
-h4 {
-  color: #8e44ad; /* Cor do subtítulo menor */
+.responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
-/* Estilizando os parágrafos */
-p {
-  color: #34495e; /* Cor do texto dos parágrafos */
-  margin-bottom: 15px; /* Espaço abaixo dos parágrafos */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: #fff;
 }
 
-/* Estilizando a figura da imagem */
 figure {
-  text-align: center; /* Centraliza a imagem e legenda */
-  margin-top: 30px; /* Espaço acima da figura */
+  text-align: center;
+  margin: 20px 0;
 }
 
 img {
-  max-width: 100%; /* Faz com que a imagem se ajuste à largura da tela */
-  height: auto; /* Mantém a proporção da imagem */
-}
-
-figcaption {
-  font-style: italic; /* Deixa a legenda em itálico */
-  color: #7f8c8d; /* Cor da legenda */
+  border: 2px solid #ff6a00;
 }
