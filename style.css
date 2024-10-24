@@ -1,37 +1,43 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 20px;
-  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+  line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+  margin: 20px; /* Margem da página */
+  background-color: #f4f4f4; /* Cor de fundo suave */
 }
 
+/* Estilizando os títulos */
 h1 {
-  color: #2c3e50;
-  text-align: center;
+  color: #2c3e50; /* Cor do título principal */
+  text-align: center; /* Centraliza o título */
 }
 
 h2 {
-  color: #2980b9;
-  margin-top: 20px;
-}
-
-p {
-  color: #34495e;
-  margin-bottom: 15px;
+  color: #2980b9; /* Cor dos subtítulos */
+  margin-top: 20px; /* Espaço acima dos subtítulos */
 }
 
 h4 {
-  color: #8e44ad;
-  font-style: italic;
+  color: #8e44ad; /* Cor do subtítulo menor */
 }
 
+/* Estilizando os parágrafos */
+p {
+  color: #34495e; /* Cor do texto dos parágrafos */
+  margin-bottom: 15px; /* Espaço abaixo dos parágrafos */
+}
+
+/* Estilizando a figura da imagem */
 figure {
-  text-align: center;
-  margin-top: 20px;
+  text-align: center; /* Centraliza a imagem e legenda */
+  margin-top: 30px; /* Espaço acima da figura */
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Faz com que a imagem se ajuste à largura da tela */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+figcaption {
+  font-style: italic; /* Deixa a legenda em itálico */
+  color: #7f8c8d; /* Cor da legenda */
 }
