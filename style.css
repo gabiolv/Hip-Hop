@@ -49,10 +49,15 @@ section {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: transform 0.2s;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 section:hover {
   transform: scale(1.02);
+  margin-right: auto;
+  margin-left: auto; 
 }
 
 h2 {
@@ -60,10 +65,12 @@ h2 {
 }
 
 .responsive {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;  
 }
 
 footer {
@@ -71,13 +78,19 @@ footer {
   padding: 10px;
   background: #333;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figure {
   text-align: center;
   margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
   border: 2px solid #ff6a00;
+  margin-left: 100px;
+  margin-right: auto;
 }
